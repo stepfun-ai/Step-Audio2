@@ -1,0 +1,402 @@
+[
+    {
+        "audio": "audio/CKwRIMAFAMxZAbyyHADdfEyU-aacv2-48K_27_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "说话人的音调属于中低音。"
+        }
+    },
+    {
+        "audio": "audio/2978426683290502662_hd_6_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "说话人的音调属于中低音。"
+        }
+    },
+    {
+        "audio": "audio/lnFRd1lDDv2EXcQSkN3XGq3L5DZQ_0_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "我觉得说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/lpjnD5GM87wS8b829DgzDRczHk5a_6_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "说话人的音调是偏高的。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIasJtQSaAgKc3AKvMo6E-aacv2-48K_8_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "我觉得说话人的音调是中低音。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIJIHmzKYA1EuPQHthlnC_19_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "说话人的音调是高的。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIMAJxNTQAcY2PgK1-6gk_15_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIasKzSzOAmlD5wMWrAfE_18_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/lhNaRZ4vLdrCeW26HRJSe4QOAZ-P_17_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "这个说话人的音调是高的。"
+        }
+    },
+    {
+        "audio": "audio/lucGZqTvvZa5upgaY0FjCsoD0v-__8_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "我觉得是中低音。"
+        }
+    },
+    {
+        "audio": "audio/lnw2WctNFG_pdCilaHOIZwJC64mu_16_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "这个说话人的音调是中低音。"
+        }
+    },
+    {
+        "audio": "audio/lsx0bVZ3eiFWK2Hi9sXkIlGuYIX__0_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "这个说话人的音调是中音。"
+        }
+    },
+    {
+        "audio": "audio/lrvkl7ql6tJoJKGRR9dbJCJnTYba_1_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "我觉得是高音。"
+        }
+    },
+    {
+        "audio": "audio/lnN8KXNiChKgTM_2GCrajSyzpkeZ_5_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIRwH00oJAhtS3QH9FSAk_4_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "我觉得是高音。"
+        }
+    },
+    {
+        "audio": "audio/loygMEusS1-ZD6jfZ1KYfiREN_w5_3_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "我觉得是中音。"
+        }
+    },
+    {
+        "audio": "audio/CKwRIaIEHmPVABAAAACQuy2E_13_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "我觉得是中音。"
+        }
+    },
+    {
+        "audio": "audio/WPDL_ppcTwXEerZAXwkrZswMUzvjrEuYkhXmKEQEJucFFSzdGPjtEYdYyNJPsJf-6c_19_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "这段话是用中音说的。"
+        }
+    },
+    {
+        "audio": "audio/lrvkl7ql6tJoJKGRR9dbJCJnTYba_6_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "说话人的音调是高的。"
+        }
+    },
+    {
+        "audio": "audio/CKwRIMAEtmB3ABAAAADCkALH_20_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "这段话的音调是高的。"
+        }
+    },
+    {
+        "audio": "audio/ltDVM6nCD8hNpySRlmAIlULGN0c-_5_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "我觉得说话人的音调是中低音。"
+        }
+    },
+    {
+        "audio": "audio/llG6fLWmM3gxNluG1EZlevYnry3n_14_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/lrFTAUwPN6Eodz_LNQHi2-n7mf6V_18_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "我觉得说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/loQHlpxzhzJ7_ur-99e6cRulkH5v_30_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "说话人的音调听起来是中音。"
+        }
+    },
+    {
+        "audio": "audio/ltN4UINyYluntAmT6WzA4krqKlmd_10_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "我觉得说话人的音调比较高。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIaIIeKDiATMawwIy18v7-aacv2-48K_11_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "说话人的音调是高的。"
+        }
+    },
+    {
+        "audio": "audio/lqbiwPHpUF5NXEnWLIKciOwGMUUD_19_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "说话人的音调偏向中高音。"
+        }
+    },
+    {
+        "audio": "audio/lsOhfKxnR9yLXgAjyxT0sIvjTigK_27_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "我觉得说话人的音调是中低音。"
+        }
+    },
+    {
+        "audio": "audio/liNvWijcqF0WCP4SuACmarhvnKmR_3_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "这个说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIMAJqxLtA2cyMAKrJHgy-aacv2-48K_33_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "我觉得说话人的音调是偏高的。"
+        }
+    },
+    {
+        "audio": "audio/CKwRINsEdldBAX3qFQCrz11F_2_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIaIHwiu1A2FikwH3_hVA_5_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/wKgO0F40RpbxsvX4CYcndqi1Swk723_0_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "我觉得是中低音。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIRwHe1ALA3b20gHj6ybb-aacv2-48K_14_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "说话人的音调是高的。"
+        }
+    },
+    {
+        "audio": "audio/lpdkvkOHad-mAlpaGpVnk_Imf4fH_16_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "我觉得是中音。"
+        }
+    },
+    {
+        "audio": "audio/lkMQ3U1FnvGRI_rw8yvtbZrHRr9U_13_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/2951682002809922054_hd_5_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/lox0JphoT-veNuFb-2hQ9wTSimmw_25_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "说话人的音调是中高音。"
+        }
+    },
+    {
+        "audio": "audio/lk8qZgxmc2v1MHPkDmHCLIgbaX39_6_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "说话人用的是中音。"
+        }
+    },
+    {
+        "audio": "audio/lrvkl7ql6tJoJKGRR9dbJCJnTYba_2_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "高音",
+            "answer": "说话人的音调是偏高的。"
+        }
+    },
+    {
+        "audio": "audio/lk2xAyKvujhsP5ZPVTsHBnwdUoLB_4_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "说话人的音调偏向中低音。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIW4FaX2eAfIXxQD4AgTB_6_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "我觉得是中音。"
+        }
+    },
+    {
+        "audio": "audio/wKg5JV7h4XSQ7XGpAebVOt8g8kM585_2_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "我觉得是中音。"
+        }
+    },
+    {
+        "audio": "audio/loutlQzQtJiMarsWhWz1cDj0I1T0_19_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "这个说话人的音调是中低音。"
+        }
+    },
+    {
+        "audio": "audio/lmuMA9nl9hyEYPUUK_M3Fa-P3clI_18_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中高音",
+            "answer": "我觉得是中高音。"
+        }
+    },
+    {
+        "audio": "audio/lp1v3fF-ZNZ9qPG1KozrscbpphFT_18_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "我觉得是中音。"
+        }
+    },
+    {
+        "audio": "audio/20_31594657_6415_25_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "说话人的音调是中低音。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIJEGys3hAoKVowGRIUIw-aacv2-48K_0_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中低音",
+            "answer": "这个说话人的音调是中低音。"
+        }
+    },
+    {
+        "audio": "audio/8336006022_573668_1_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "说话人的音调是中音。"
+        }
+    },
+    {
+        "audio": "audio/lgfPChCHJa6faZcMhU7RuQg__yRp_18_input.wav",
+        "task": {
+            "name": "识别说话人音调",
+            "label": "中音",
+            "answer": "我觉得是中音。"
+        }
+    }
+]

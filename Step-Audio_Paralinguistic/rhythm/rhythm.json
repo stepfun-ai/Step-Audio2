@@ -1,0 +1,402 @@
+[
+    {
+        "audio": "audio/lg8mDAXWMEUxq1ow2MT9eUQwQMYd_14_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "平稳，有自然的语流停顿",
+            "answer": "说话人的节奏很平稳，而且有自然的停顿，听起来很舒服。"
+        }
+    },
+    {
+        "audio": "audio/llYO7I7wZuWSDg3KVmuHMHq77K1-_6_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "基本平稳，偶有为强调而出现的停顿或语速变化",
+            "answer": "说话人的节奏基本平稳，只是在某些强调的地方会有停顿或者语速变化。"
+        }
+    },
+    {
+        "audio": "audio/lvxDNQgroeTyNyGPmxd04Wogd3Hf_11_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "较平稳，有自然停顿",
+            "answer": "说话人的节奏比较平稳，而且在说话时会有自然的停顿。"
+        }
+    },
+    {
+        "audio": "audio/lp7FlYC2tMTlSyenN8Xxw3I3KZ9z_17_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "平稳，有自然的语句间停顿",
+            "answer": "说话人的节奏很平稳，语句之间有自然的停顿。"
+        }
+    },
+    {
+        "audio": "audio/CKwRIJEEfT0OABAAAACuT9Eh_6_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "平稳，有自然的语流停顿",
+            "answer": "说话人的节奏很平稳，语句之间有自然的停顿，听起来很流畅。"
+        }
+    },
+    {
+        "audio": "audio/lr64DvMZCUAeRfTBVeB3JnSbMIN0_9_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "平稳，有自然的语流停顿",
+            "answer": "说话人的节奏很平稳，中间还有一些自然的停顿，听起来很舒服。"
+        }
+    },
+    {
+        "audio": "audio/lh2R8cXd6l-PkKs3g_gTYqgchGOr_8_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "平稳，偶有自然停顿",
+            "answer": "说话人的节奏很平稳，中间偶尔会有自然的停顿。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIasK3ciWAc3JewMcxLx3_0_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "平稳，偶有为强调内容而设的自然停顿",
+            "answer": "说话人的节奏很平稳，偶尔会在强调某些内容时自然地停顿一下。"
+        }
+    },
+    {
+        "audio": "audio/ljkcXTt1haZURNs5hneIe8byHSeq_19_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "平稳，偶有自然的停顿以组织语言",
+            "answer": "说话人的节奏挺平稳的，偶尔会有一些自然的停顿，可能是为了更好地组织语言，整体听起来很自然，没有什么奇怪的地方。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIaIK4E-6Ae_I9QMdyYw1_2_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "平稳，有自然的逻辑停顿",
+            "answer": "说话人的节奏很平稳，而且有自然的逻辑停顿，听起来很舒服。"
+        }
+    },
+    {
+        "audio": "audio/lg8hwV4g7bIbP-1D0qV1URWzbkcj_13_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅，有自然的语顿和强调",
+            "answer": "说话人的节奏很流畅，听起来很自然，而且还能感觉到他在适当的地方做了停顿和强调。"
+        }
+    },
+    {
+        "audio": "audio/lh8AMnYX6EAc0T7dlC2Lo5hb4wjh_17_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅，有逻辑停顿",
+            "answer": "说话人的节奏很流畅，该停顿的地方有适当的停顿，听起来很有条理。"
+        }
+    },
+    {
+        "audio": "audio/lmNKJiQXqrk7fHYaH2QUuhDMmBa-_4_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅，略带急促感，有自然的口语停顿",
+            "answer": "说话人的节奏挺流畅的，有一点急促的感觉，但也有自然的停顿，就像是在日常对话中那样。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIJEGlQQyAWRcNwF1sY1s_2_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅，偶有为思考而产生的自然停顿",
+            "answer": "说话人的节奏挺流畅的，偶尔会有一些自然的停顿，看起来是为了更好地思考接下来要说的话。"
+        }
+    },
+    {
+        "audio": "audio/lpxURxe0X_iqluATBHpIlYeWYmpq_16_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅，有自然停顿",
+            "answer": "说话人的节奏很流畅，而且自然地在合适的地方做了停顿。"
+        }
+    },
+    {
+        "audio": "audio/lkhW0Rtt0JpfDq90I5o2ZoSUYgY0_3_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅，有自然的语断和强调",
+            "answer": "说话人的节奏很流畅，自然地停顿和强调使得内容听起来很舒服。"
+        }
+    },
+    {
+        "audio": "audio/lv8Y_kTt-ce22pqI_uKKn_4rqxIT_1_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅，有自然的语断和节奏变化",
+            "answer": "说话人的节奏很流畅，有自然的停顿和节奏变化，听起来很舒服。"
+        }
+    },
+    {
+        "audio": "audio/lgl-vBOL-AbVNIBZzZKtyC8NLeCh_9_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅，有自然停顿",
+            "answer": "说话人的节奏很流畅，还有自然的停顿，听起来很舒服。"
+        }
+    },
+    {
+        "audio": "audio/lhppGZGCDpqUrduVmagLRPb6583l_2_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅，有自然停顿",
+            "answer": "说话人的节奏很流畅，而且在适当的地方有自然的停顿。"
+        }
+    },
+    {
+        "audio": "audio/lv8Y_kTt-ce22pqI_uKKn_4rqxIT_5_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅，偶有为强调而设的短暂停顿",
+            "answer": "说话人的节奏很流畅，只是偶尔为了强调某个点会有短暂的停顿。"
+        }
+    },
+    {
+        "audio": "audio/liRCaMbW_1PAGR46cWSB--0826zP_15_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有停顿，节奏感强，抑扬顿挫",
+            "answer": "说话人的节奏有明显的停顿，整体感觉节奏感很强，而且声音高低起伏，很有抑扬顿挫的感觉。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIasJJQoMAmzSYwJ70fTJ-aacv2-48K_17_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有节奏感，带有叙事性停顿",
+            "answer": "这段音频里的说话人节奏感很强，而且有一些叙事性的停顿，听起来就像是在讲故事一样。"
+        }
+    },
+    {
+        "audio": "audio/ljB1qw301L9kM14bM4BNUR0q7zcb_3_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有自然停顿和连接",
+            "answer": "说话人的节奏是自然的，有合理的停顿和连接。"
+        }
+    },
+    {
+        "audio": "audio/lmwvmfTMHhArToR7vGGfAziK-Fc8_10_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有自然的停顿和节奏变化，不单调",
+            "answer": "说话人的节奏很好，有自然的停顿和变化，听起来不单调。"
+        }
+    },
+    {
+        "audio": "audio/llsxc-e5MuTouL3SMHHM05xq7Yu1_9_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有停顿/波动明显",
+            "answer": "这段音频里的说话人节奏有明显的停顿和波动。"
+        }
+    },
+    {
+        "audio": "audio/CKwRIRwEm103AiH-qgC49PNI-aacv2-48K_13_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "波动明显，有自然的叙事停顿和因情绪带动的加速",
+            "answer": "说话人的节奏变化挺大的，有时候讲着讲着就会自然地停顿一下，尤其是在讲述一些情节的时候。有时候情绪上来，说话的速度又会明显加快。"
+        }
+    },
+    {
+        "audio": "audio/lgekHbDhkySA0L9RWJ3TdGYnE8-V_16_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "波动明显，有为强调而设置的停顿",
+            "answer": "说话人的节奏变化挺大的，有些地方为了强调意思会特意停顿一下。"
+        }
+    },
+    {
+        "audio": "audio/lsXJaiwOMEZkURXjYKjWAPlrhRPF_7_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有波动，部分语句有强调和轻微停顿",
+            "answer": "说话人的节奏有些波动，有些地方听起来会有一些强调，还有一些轻微的停顿。"
+        }
+    },
+    {
+        "audio": "audio/lu_oRklv7CwfKPWsn76pUx5Ckv4c_13_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "语流自然，偶有思考性停顿",
+            "answer": "说话人的节奏听起来很自然，偶尔会有几秒的停顿，像是在思考接下来要说的话。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIJEHbP6OAgN-_gHfwfZM_1_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有自然的停顿和思考",
+            "answer": "说话人的节奏听起来挺自然的，有停顿也有思考的感觉。"
+        }
+    },
+    {
+        "audio": "audio/lsqxy9S7exwowzzxHMKozOWvy4Hj_17_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "急促，有波动",
+            "answer": "说话人的语速挺急促的，而且语调还有些起伏波动。"
+        }
+    },
+    {
+        "audio": "audio/lg_72mYnwzGcWhRxhs1OeFX_EBfC_21_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "略有波动，部分语句因情绪略显急促",
+            "answer": "说话人的节奏有些起伏，有的时候因为情绪的原因会说得比较快。"
+        }
+    },
+    {
+        "audio": "audio/lqOYDemXx99b_VHYxghTZfl6Je9p_2_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "急促且有明显波动",
+            "answer": "说话人的节奏听起来挺急促的，而且声音的高低起伏也很明显。"
+        }
+    },
+    {
+        "audio": "audio/loVY3cq0vm9jXAYK4Ysti4mradlI_9_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "急促/有轻微波动",
+            "answer": "说话人的节奏听起来挺急促的，还有一些轻微的波动。"
+        }
+    },
+    {
+        "audio": "audio/loVY3cq0vm9jXAYK4Ysti4mradlI_17_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "波动明显，有强调重点",
+            "answer": "说话人的节奏波动很明显，有些词或句子被特别强调了。"
+        }
+    },
+    {
+        "audio": "audio/CKwRIUEE3ri1ABAAAADR3gf1_15_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有波动，强调处语速加快，音量提高",
+            "answer": "说话人的节奏有变化，特别是在强调的部分，语速变快了，声音也更大了。"
+        }
+    },
+    {
+        "audio": "audio/ltXbIMZfWN7JohD8DAR4iZUPXicU_16_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "波动明显",
+            "answer": "说话人的节奏波动很明显。"
+        }
+    },
+    {
+        "audio": "audio/lmHZcBapH3ZG59tTIutGElBRsQxJ_4_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "波动明显",
+            "answer": "说话人的语速变化挺大的，波动很明显。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIRwHgDttAxR_qgHlNZuh_17_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "波动明显",
+            "answer": "说话人的节奏起伏挺大的，波动明显。"
+        }
+    },
+    {
+        "audio": "audio/lmMVVJG-R_objZQpCVYndBbYSgmO_2_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "波动明显，有强调顿挫",
+            "answer": "说话人的节奏变化挺大的，有时候会突然停顿一下，好像在强调某些词句。"
+        }
+    },
+    {
+        "audio": "audio/lqAqytCQZdXZWhKegX6HRXneQ050_19_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "波动明显，随情绪和叙述内容变化",
+            "answer": "说话人的节奏变化挺大的，明显随着情绪和讲述的内容在变。"
+        }
+    },
+    {
+        "audio": "audio/lp1xcMFIBNs727mld8YWaPLSG0Uv_7_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有停顿/波动明显",
+            "answer": "说话人的节奏有明显的停顿和波动。"
+        }
+    },
+    {
+        "audio": "audio/lkMQ3U1FnvGRI_rw8yvtbZrHRr9U_13_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "急促且波动明显",
+            "answer": "说话人的节奏很急促，而且变化很明显。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIMAJxNTQAcY2PgK1-6gk_15_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "急促/有自然的口语停顿",
+            "answer": "说话人讲得比较急促，但也有些自然的口语停顿。"
+        }
+    },
+    {
+        "audio": "audio/2951682002809922054_hd_5_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "急促/波动明显",
+            "answer": "说话人的节奏听起来挺急促的，而且波动很明显。"
+        }
+    },
+    {
+        "audio": "audio/loygMEusS1-ZD6jfZ1KYfiREN_w5_3_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有停顿，波动明显",
+            "answer": "说话人讲话时有停顿，语速的波动也很明显。"
+        }
+    },
+    {
+        "audio": "audio/lmuMA9nl9hyEYPUUK_M3Fa-P3clI_18_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "急促但有自然停顿",
+            "answer": "说话人的节奏听起来挺急促的，但是中间还是有自然的停顿。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIasH8CdrAv4E4gIFcBg6_17_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "有自然停顿，但整体略显急促",
+            "answer": "说话人的节奏有自然的停顿，但整体听起来还是稍微急促了一些。"
+        }
+    },
+    {
+        "audio": "audio/lrFTAUwPN6Eodz_LNQHi2-n7mf6V_18_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "波动明显，有强调顿挫",
+            "answer": "说话人的节奏波动很明显，有时候会为了强调某个词或句子而故意停顿一下。"
+        }
+    },
+    {
+        "audio": "audio/lkhW0Rtt0JpfDq90I5o2ZoSUYgY0_6_input.wav",
+        "task": {
+            "name": "识别说话人节奏",
+            "label": "流畅但略显急促，有自然的语气停顿",
+            "answer": "我觉得说话人的节奏挺流畅的，但是有一点点急促，不过好在有自然的停顿，听起来还算是舒服的。"
+        }
+    }
+]

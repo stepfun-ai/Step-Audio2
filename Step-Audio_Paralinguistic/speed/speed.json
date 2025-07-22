@@ -1,0 +1,402 @@
+[
+    {
+        "audio": "audio/WPDL_xyfZRfFtwbVQZXvLjhNHawfeZsaytRQhQgmnbRRRxjmmcgTfvKKcAnWGaG-e9_12_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中速",
+            "answer": "我觉得说话人说得是中速，不算快也不算慢。"
+        }
+    },
+    {
+        "audio": "audio/20_31587832_7440_3_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中速",
+            "answer": "我觉得说话人的语速是中等的。"
+        }
+    },
+    {
+        "audio": "audio/lsWTgAU4gt6yoNfyBWQyr-OeL329_1_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中速",
+            "answer": "我觉得是中等速度。"
+        }
+    },
+    {
+        "audio": "audio/lsr4l1mSc3_veU8N5dBtFO-Pfb7L_5_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中速",
+            "answer": "我觉得说话人的语速是中等的。"
+        }
+    },
+    {
+        "audio": "audio/lg8NkbjJx-PuuuV2pB4Y3KiqUTut_0_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中速",
+            "answer": "我觉得那个人说话的速度是中等的。"
+        }
+    },
+    {
+        "audio": "audio/lrKQY73kS2aXJ4M0-hSKdDZy2rD9_17_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中速，部分语句为强调略快",
+            "answer": "说话人的语速主要是中等速度，但在强调某些部分时会稍微加快一些。"
+        }
+    },
+    {
+        "audio": "audio/CKwRIJIEsQh1ABAAAADAqscf_6_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中速",
+            "answer": "我觉得说话人的语速是中等的，不快也不慢。"
+        }
+    },
+    {
+        "audio": "audio/lu-sZPOX7ZnRBiGj0jWNAKMF2YTk_1_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中速",
+            "answer": "我觉得说话人的语速是中等的。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIMAFZ-RXABAAAAD3eAiK_2_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中速",
+            "answer": "听起来是中等速度的。"
+        }
+    },
+    {
+        "audio": "audio/lvZkN3gn9NWyBZSyoOdTngCWSbiA_1_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中速",
+            "answer": "我觉得说话人的语速是中等的。"
+        }
+    },
+    {
+        "audio": "audio/lilBZy1lM31b9uL2sjkXgWY73jRc_10_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中快速",
+            "answer": "我觉得那个人说话的速度是中快速的。"
+        }
+    },
+    {
+        "audio": "audio/lh8AMnYX6EAc0T7dlC2Lo5hb4wjh_17_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中快速",
+            "answer": "我觉得是中快速。"
+        }
+    },
+    {
+        "audio": "audio/lhppGZGCDpqUrduVmagLRPb6583l_2_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中快速",
+            "answer": "我觉得是中快速。"
+        }
+    },
+    {
+        "audio": "audio/ljkqtNQKo5NwRatVNdnMiTqJE5E__13_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中快速",
+            "answer": "我觉得说话人的语速是中快速。"
+        }
+    },
+    {
+        "audio": "audio/wKgMeV3OfKejvpDsAeJgQmMDkfA459-aacv2-48K_8_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中快速",
+            "answer": "我觉得那个人说话的速度是中快速的。"
+        }
+    },
+    {
+        "audio": "audio/lv5GcOvnyi3RMLyylR6TVROLkzLN_9_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中快速",
+            "answer": "我觉得说话人的语速是中快速的。"
+        }
+    },
+    {
+        "audio": "audio/lrsnvSUDQAzTBKmcwmXCnuxXsBiu_3_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中快速",
+            "answer": "我觉得是中快速的。"
+        }
+    },
+    {
+        "audio": "audio/lsWTgAU4gt6yoNfyBWQyr-OeL329_15_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中快速",
+            "answer": "我觉得说话人的语速是中快速的。"
+        }
+    },
+    {
+        "audio": "audio/lmKlyXvOvVUppXQeBpTbxNBzjuzd_3_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中快速",
+            "answer": "我觉得说话人的语速是中快速的。"
+        }
+    },
+    {
+        "audio": "audio/lv8Y_kTt-ce22pqI_uKKn_4rqxIT_6_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中快速",
+            "answer": "我觉得说话人的语速是中快速。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIJEGlQQyAWRcNwF1sY1s_2_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "快速",
+            "answer": "我觉得说话人的语速是挺快的。"
+        }
+    },
+    {
+        "audio": "audio/lmwvmfTMHhArToR7vGGfAziK-Fc8_14_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "快速",
+            "answer": "说话人语速挺快的。"
+        }
+    },
+    {
+        "audio": "audio/lnHvVEu6v6sIeFOXPhUnxDFrcMma_6_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "快速",
+            "answer": "说话人的语速是偏快的。"
+        }
+    },
+    {
+        "audio": "audio/liRCaMbW_1PAGR46cWSB--0826zP_14_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "快速",
+            "answer": "我觉得说话人的语速挺快的。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIRwHgDttAxR_qgHlNZuh_17_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "快速",
+            "answer": "说话人的语速挺快的。"
+        }
+    },
+    {
+        "audio": "audio/lluDEAwEUSeA8I1P1PvWlBWfVi4B_3_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "快速",
+            "answer": "说话人的语速挺快的。"
+        }
+    },
+    {
+        "audio": "audio/ljeRs4ynDdv150ZcSieAEZFQLVt1_7_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "快速",
+            "answer": "这段音频里的说话人语速是快速的。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIMAFZ-RXABAAAAD3eAiK_4_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "快速",
+            "answer": "说话的人语速挺快的。"
+        }
+    },
+    {
+        "audio": "audio/lv8Y_kTt-ce22pqI_uKKn_4rqxIT_5_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "快速",
+            "answer": "说话人的语速是快速的。"
+        }
+    },
+    {
+        "audio": "audio/lsqxy9S7exwowzzxHMKozOWvy4Hj_17_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "快速",
+            "answer": "说话人的语速挺快的。"
+        }
+    },
+    {
+        "audio": "audio/lsk_ZOjKmP3vqr3KLih57xPqYjn2_17_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中慢速",
+            "answer": "我觉得说话人的语速是中慢速。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIasJR6cVAiTbagKIPg_r-aacv2-48K_0_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "慢速",
+            "answer": "说话人的语速是比较慢的。"
+        }
+    },
+    {
+        "audio": "audio/llR9zSgKXyPL5XUlF9sO0TwNr1Ye_21_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "慢速",
+            "answer": "说话人的语速比较慢。"
+        }
+    },
+    {
+        "audio": "audio/lsS0rFjzVcroolcjQcgxlpv2pPvD_46_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "慢速",
+            "answer": "说话人的语速是慢速的。"
+        }
+    },
+    {
+        "audio": "audio/ltaaRO3YS3k6HUhyPVX8aU5OnqtN_14_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "慢速",
+            "answer": "说话人的语速是比较慢的。"
+        }
+    },
+    {
+        "audio": "audio/ljH0s09FU8lvNf1TygxeFSA8q5F8_26_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中慢速",
+            "answer": "我觉得说话人的语速是中慢速的。"
+        }
+    },
+    {
+        "audio": "audio/llR9zSgKXyPL5XUlF9sO0TwNr1Ye_19_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "慢速",
+            "answer": "说话人的语速是慢速的。"
+        }
+    },
+    {
+        "audio": "audio/FtgjtN2DPowFfcVf7EKwECskc_8j_15_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中慢速",
+            "answer": "我觉得是中慢速。"
+        }
+    },
+    {
+        "audio": "audio/lg3JC4f_ObYapEGMajGOm0CggT14_24_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "慢速",
+            "answer": "说话人的语速是慢速的。"
+        }
+    },
+    {
+        "audio": "audio/lumpzi8kEWZowWL7YcjsWaT_Kzcm_32_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中慢速",
+            "answer": "我觉得说话人的语速是中慢速。"
+        }
+    },
+    {
+        "audio": "audio/lufyTI1avDP-SkGENYDIK91lIZ1v_7_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中慢速",
+            "answer": "说话人的语速是中慢速的。"
+        }
+    },
+    {
+        "audio": "audio/316604267-44100-2-9d215ddb2eac3_4_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "慢速",
+            "answer": "说话人的语速比较慢。"
+        }
+    },
+    {
+        "audio": "audio/lld49idK6LYgO5897yp1PI4-tofN_4_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "慢速",
+            "answer": "我觉得说话人的语速是慢速的。"
+        }
+    },
+    {
+        "audio": "audio/llR9zSgKXyPL5XUlF9sO0TwNr1Ye_9_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中慢速",
+            "answer": "我觉得是中慢速的。"
+        }
+    },
+    {
+        "audio": "audio/lmAbje6Wq6DBAlphWOrZSKGAQx09_11_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "慢速",
+            "answer": "说话人的语速比较慢。"
+        }
+    },
+    {
+        "audio": "audio/20_31596945_3534_27_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中慢速",
+            "answer": "说话人的语速是中慢速的。"
+        }
+    },
+    {
+        "audio": "audio/20_31594657_6415_4_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中慢速",
+            "answer": "说话人的语速是中慢速。"
+        }
+    },
+    {
+        "audio": "audio/lhMEm9w0Oj5DpGdMdv-AzVcZLv5h_7_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中慢速",
+            "answer": "我觉得说话人的语速是中慢速的。"
+        }
+    },
+    {
+        "audio": "audio/lgUOjijL2VtsHyU-otNpgAejX5Gn_25_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "中慢速",
+            "answer": "说话人的语速是中慢速。"
+        }
+    },
+    {
+        "audio": "audio/loRnG4fzjVVJWs2UM27szDF_4oHZ_8_input.wav",
+        "task": {
+            "name": "识别说话人语速",
+            "label": "慢速",
+            "answer": "我觉得说话人的语速是慢速的。"
+        }
+    }
+]

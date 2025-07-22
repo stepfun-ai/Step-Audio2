@@ -1,0 +1,402 @@
+[
+    {
+        "audio": "audio/mixed_uRXpBr11FEA_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " music played on a musical instrument.",
+            "answer": "听到了乐器演奏的音乐。"
+        }
+    },
+    {
+        "audio": "audio/mixed_FRHjH4HH2Nk_0_9_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " someone clearing their throat.",
+            "answer": "听到有人清了清嗓子。"
+        }
+    },
+    {
+        "audio": "audio/mixed_LBgPiomp3Tk_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "蟋蟀的鸣叫声。",
+            "answer": "在这段录音里，除了人的说话声，还能听到蟋蟀的鸣叫声。"
+        }
+    },
+    {
+        "audio": "audio/mixed_kvs1m0uEfhc_0_9_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a bus driving on the road.",
+            "answer": "我听到了一辆公共汽车在路上行驶的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_5iQrwlkny-E_0_9_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " an engine idling and vibrating.",
+            "answer": "我能听到一台发动机在怠速运行并伴有震动。"
+        }
+    },
+    {
+        "audio": "audio/mixed_jBNF8-QRnsA_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "长号伴随铜管乐团演奏。",
+            "answer": "在这段音频中，可以听到长号伴随铜管乐团的演奏。"
+        }
+    },
+    {
+        "audio": "audio/mixed_ttsVYFpBAPA_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a chainsaw being used.",
+            "answer": "听到了电锯在使用的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_nJirdHOGXQM_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一辆车在路上行驶。",
+            "answer": "音频中可以听到一辆车在路上行驶的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_lEETMZaqDfY_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a crowded area.",
+            "answer": "听起来像是在一个热闹的地方。"
+        }
+    },
+    {
+        "audio": "audio/mixed_j__apX9k6yI_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a chicken or rooster clucking and making noise in a domestic setting, possibly in a farm or a home environment where they are kept as pets.",
+            "answer": "这段音频里有只鸡或公鸡在打鸣和发出叫声，背景像是在一个家庭环境中或者是农场里，它们可能被当作宠物饲养。"
+        }
+    },
+    {
+        "audio": "audio/mixed_4KJXhTCYNGg_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a marimba, xylophone, and glockenspiel being played together.",
+            "answer": "在这段音频中，除了人声之外，还能听到马林巴、木琴和钢片琴一起演奏的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_iCrrTOuj1TE_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "路上的一辆摩托车。",
+            "answer": "我听到了路上一辆摩托车的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_cLwFqL4mMmc_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "有人正在演奏一种类似于鼓组的打击乐器，包括击鼓边、军鼓和低音鼓。",
+            "answer": "音频里有人在演奏一套打击乐器，包括敲打鼓边、军鼓和低音鼓的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_VxOmcUdJ3Uk_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "水从一个容器倒入另一个容器。",
+            "answer": "音频中可以听到水从一个容器倒入另一个容器的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_mq6231AgMJE_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a vehicle driving on a wet road.",
+            "answer": "我听到了一辆车在湿滑的路上行驶的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_3dhR_v6M5Z0_0_9_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " water gurgling.",
+            "answer": "听到了水流动的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_y2_gfcONoY0_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "音乐。",
+            "answer": "我注意到了有音乐。"
+        }
+    },
+    {
+        "audio": "audio/mixed_fd7OX30HjEU_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a car driving outside in a rural or natural setting.",
+            "answer": "音频中除了人声外，还有一辆汽车在乡村或自然环境中行驶的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_8M6d2W0KQd4_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一辆引擎沉重的汽车（低频）在加速并提高发动机转速。",
+            "answer": "我听到了一辆引擎沉重的汽车在加速并提高发动机转速的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_6j9vMdXvhUI_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一个棘爪和齿轮机构在工作。",
+            "answer": "音频里有一个棘爪和齿轮机构在工作的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_rQndwrc8gCI_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " typing on a computer keyboard.",
+            "answer": "我听到了有人在电脑键盘上打字的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_G5CwU0iPuQQ_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一个孩子在唱歌。",
+            "answer": "音频里有一个孩子在唱歌。"
+        }
+    },
+    {
+        "audio": "audio/mixed_pehcjFMIMAs_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "在木头上使用电动工具。",
+            "answer": "听起来像是在木头上使用电动工具。"
+        }
+    },
+    {
+        "audio": "audio/mixed_EJskC3ZDIaw_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a frog croaking.",
+            "answer": "听到的是蛙鸣声。"
+        }
+    },
+    {
+        "audio": "audio/mixed_2sdPi-dZf40_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " music.",
+            "answer": "我听到了音乐。"
+        }
+    },
+    {
+        "audio": "audio/mixed_vxbQ2W5UFCw_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一只敲打出打击节奏的鼓。",
+            "answer": "我听到了一只鼓在敲打出节奏。"
+        }
+    },
+    {
+        "audio": "audio/mixed_e7skVpGnnYc_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一辆车在路上行驶。",
+            "answer": "我听到了一辆车在路上行驶的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_97dfAgKJeL0_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " someone screaming while music and sound effects play in the background.",
+            "answer": "音频里有人尖叫的声音，同时背景中还播放着音乐和音效。"
+        }
+    },
+    {
+        "audio": "audio/mixed_tql0cg4nB1I_0_9_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一辆车驶过，然后是门砰的一声关上，接着是更多的交通噪音。",
+            "answer": "我听到了一辆车驶过的声音，接着是门被砰的一声关上的声音，然后还有一些持续的交通噪音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_NQV40tM6Tbs_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " music.",
+            "answer": "我听到了音乐。"
+        }
+    },
+    {
+        "audio": "audio/mixed_vaYtKsH2Dvk_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一只鸟在啁啾。",
+            "answer": "是一只鸟在啁啾。"
+        }
+    },
+    {
+        "audio": "audio/mixed_RJgQ62RWDBE_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一把锉刀正在被用来使材料光滑或削去材料。",
+            "answer": "音频中有人正在使用一把锉刀来打磨或削去材料。"
+        }
+    },
+    {
+        "audio": "audio/mixed_1HSyYj5Clv0_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一只鸟在歌唱或鸣叫。",
+            "answer": "我能听到一只鸟在歌唱或鸣叫。"
+        }
+    },
+    {
+        "audio": "audio/mixed_-1vnMOhaArA_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "双簧管演奏着旋律，伴随着中提琴的柔和音调，背景中大提琴拉着长音。",
+            "answer": "音频中可以听到双簧管在演奏旋律，中提琴的柔和音调在伴奏，还有大提琴在背景中拉着长音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_jCxsRkogvko_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a dog panting and whimpering.",
+            "answer": "听到一只狗在喘气和呜咽。"
+        }
+    },
+    {
+        "audio": "audio/mixed_K4OCPW7bKdY_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a motorboat or speedboat on the water.",
+            "answer": "音频中除了人声之外，还能听到水上摩托艇或快艇的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_3gSdwo4LvNM_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "鸟儿啾啾而鸣，啾啾而啼。",
+            "answer": "听到了鸟儿在啾啾地鸣叫。"
+        }
+    },
+    {
+        "audio": "audio/mixed_U6Ihmzpv5tk_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " music played on tablas.",
+            "answer": "听到的是手鼓演奏的音乐。"
+        }
+    },
+    {
+        "audio": "audio/mixed_QTSczyqMPXY_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a violin being played in a musical instrument.",
+            "answer": "有人在拉小提琴。"
+        }
+    },
+    {
+        "audio": "audio/mixed_-0qPtkp0Lvo_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一个物体在一间小房间里四处移动。",
+            "answer": "听起来像是一个物体在一间小房间里移动。"
+        }
+    },
+    {
+        "audio": "audio/mixed_APeWg8J_Ch0_0_9_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " artillery fire, which involves multiple rounds being fired from a gun or artillery piece.",
+            "answer": "这段音频中除了人声外，还听到了炮火的声音，像是多发炮弹从火炮中发射出去。"
+        }
+    },
+    {
+        "audio": "audio/mixed_EQG8ZONmu2Q_0_9_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " typing on a keyboard in a small room.",
+            "answer": "能听到有人在小房间里打字的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_Y8pijwU1F4Q_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "强风吹拂，风声干扰着麦克风。",
+            "answer": "强风吹拂的声音干扰了麦克风。"
+        }
+    },
+    {
+        "audio": "audio/mixed_lJhqkUttqPg_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "音乐。",
+            "answer": "我注意到了音乐。"
+        }
+    },
+    {
+        "audio": "audio/mixed_RyY_VvWp6W0_0_9_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "一辆汽车喇叭在城市或人造环境中鸣响。",
+            "answer": "音频中有一辆汽车的喇叭在城市环境中鸣响了。"
+        }
+    },
+    {
+        "audio": "audio/mixed_uQrqGVAqalY_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "液体滴落。",
+            "answer": "我能听到液体滴落的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_j97aYK0U2m4_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "人群欢呼声。",
+            "answer": "有群人在欢呼。"
+        }
+    },
+    {
+        "audio": "audio/mixed_fkmVc0sCY4o_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": " a car engine idling on the side of a road in an urban area.",
+            "answer": "我听到了一辆汽车的引擎在城市街道旁空转的声音。"
+        }
+    },
+    {
+        "audio": "audio/mixed_pOHqqKZfiAg_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "风刮得很大，并与各种物体表面发生相互作用。",
+            "answer": "我听到了强风的声音，风似乎在与周围的物体相互作用。"
+        }
+    },
+    {
+        "audio": "audio/mixed_8V5AXKqo_Ts_0_10_input.wav",
+        "task": {
+            "name": "识别音频中除了人声说话外所包含的事件",
+            "label": "教堂钟声的变换鸣响，通常被称为钟琴学。",
+            "answer": "除了人声，音频中还包含了教堂钟声的变换鸣响，这在专业术语中被称为钟琴学。"
+        }
+    }
+]

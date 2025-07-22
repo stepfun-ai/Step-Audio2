@@ -1,0 +1,402 @@
+[
+    {
+        "audio": "audio/CKwRIJEE70ODABAAAADYCeX8-aacv2-48K_19_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "日常对话/分享",
+            "answer": "我觉得更像是日常聊天，感觉很随意，像是和朋友分享一些事情。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIasHiV9XAjvTBQHn2zED_15_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "对话式/独白式",
+            "answer": "我觉得说话人的风格更偏向对话式的。"
+        }
+    },
+    {
+        "audio": "audio/lieC_GGXXIgyhmNY8PHoNJmjyWeO_17_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "对话/叙述",
+            "answer": "我觉得说话人的风格更偏向于对话和叙述相结合的风格。"
+        }
+    },
+    {
+        "audio": "audio/lhb6yDAXj-xAhFnUKKdLpwKMCJ8U_8_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "日常对话/叙述",
+            "answer": "听起来更像是日常的对话或叙述。"
+        }
+    },
+    {
+        "audio": "audio/lnvT-2agwnRtV-kZMV0GDet7udmx_2_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "谈话式",
+            "answer": "说话人的风格听起来很谈话式，挺自然的。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIasFmXkTAojcGQEFvOcc_10_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "谈话式/解说式",
+            "answer": "我觉得是谈话式的。"
+        }
+    },
+    {
+        "audio": "audio/lkH9aSNPKdfVktapN4c8bhy1TUg-_16_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "谈话式/分享式",
+            "answer": "我觉得说话人的风格偏向于谈话式和分享式的，感觉就像是在和朋友聊天一样，很轻松自然。"
+        }
+    },
+    {
+        "audio": "audio/CKwRIJEEfT0OABAAAACuT9Eh_6_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "谈话/叙述",
+            "answer": "说话人的风格偏向谈话/叙述，听起来比较平和自然。"
+        }
+    },
+    {
+        "audio": "audio/ljNxWPSQMPsYBRre0a3LbADn0Mdt_15_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "叙述式/分享式",
+            "answer": "我觉得说话人的风格偏向叙述式，感觉像是在分享些什么。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIJIGpyv2AwLX1gF_i5Le-aacv2-48K_16_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "叙述式/交谈式",
+            "answer": "我觉得更像叙述式的。"
+        }
+    },
+    {
+        "audio": "audio/lmMGVsru1bPRQwnq3iJwbuve5dDz_2_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "叙述/独白",
+            "answer": "我觉得说话人是在进行独自讲述，更像是在叙述或者做独白。"
+        }
+    },
+    {
+        "audio": "audio/wKgMeV3OfKejvpDsAeJgQmMDkfA459-aacv2-48K_8_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "叙述/讲故事",
+            "answer": "我觉得说话人的风格更偏向于叙述，就像在讲故事一样。"
+        }
+    },
+    {
+        "audio": "audio/ltXbIMZfWN7JohD8DAR4iZUPXicU_16_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "叙述/抱怨/讲故事",
+            "answer": "我觉得说话人是在叙述事情。"
+        }
+    },
+    {
+        "audio": "audio/lpeLQ65rNtMbyXyT5u1ohzdP53nF_22_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "口语化叙述",
+            "answer": "我觉得说话人的风格挺口语化的，就像是在聊天一样自然。"
+        }
+    },
+    {
+        "audio": "audio/lrXaoUy8UWgnecSa3IRC1JGe0Fqs_0_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "讲座/叙述式",
+            "answer": "听起来像是在进行讲座或者叙述。"
+        }
+    },
+    {
+        "audio": "audio/luqeJKqek89f0apgd_lVqXFUvXeH_8_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "叙述式/口语分享",
+            "answer": "更像是在讲故事，感觉很接近日常生活中的聊天分享。"
+        }
+    },
+    {
+        "audio": "audio/lsWTgAU4gt6yoNfyBWQyr-OeL329_2_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "解说/播客",
+            "answer": "我觉得说话人的风格更像是在解说或做播客。"
+        }
+    },
+    {
+        "audio": "audio/lgekHbDhkySA0L9RWJ3TdGYnE8-V_4_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "解说/讲座",
+            "answer": "像是在听解说或者讲座。"
+        }
+    },
+    {
+        "audio": "audio/lmwvmfTMHhArToR7vGGfAziK-Fc8_14_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "解说/评论",
+            "answer": "听起来像是在解说或者评论事情。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIUEGGOsrAd67ywExyJUe_13_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "解说",
+            "answer": "这段音频里的说话人风格更像是在解说。"
+        }
+    },
+    {
+        "audio": "audio/lu4RijUWFOEluXOSq4FfCXEsF4Ls_10_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "解说/播客风格",
+            "answer": "我觉得说话人的风格更像是在做解说或者播客，听起来很专业而且很有条理。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIRwHe1ALA3b20gHj6ybb-aacv2-48K_11_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "解说/评论式",
+            "answer": "我觉得更像是解说或评论式的风格。"
+        }
+    },
+    {
+        "audio": "audio/lmKlyXvOvVUppXQeBpTbxNBzjuzd_10_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "评论式/解说式",
+            "answer": "我觉得是评论式的。"
+        }
+    },
+    {
+        "audio": "audio/lli2yQER68sqbQxRfcjICnn5e94D_11_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "播音/解说",
+            "answer": "这段音频里的说话人风格更接近播音。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIMAFZ-RXABAAAAD3eAiK_2_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "口语化/解释性",
+            "answer": "我觉得说话人的风格偏向口语化，还带着一些解释性的说明。"
+        }
+    },
+    {
+        "audio": "audio/lg8mDAXWMEUxq1ow2MT9eUQwQMYd_10_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "口语化/播客风格",
+            "answer": "我觉得更像是播客风格。"
+        }
+    },
+    {
+        "audio": "audio/lsY3vRt1c2oDlEPnlclkh-WwfvUM_3_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "口语化/闲聊",
+            "answer": "对，说话的方式很口语化，就像是在闲聊一样。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIasHy1MJAPD8HAH6uYri_4_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "口语化/播客分享",
+            "answer": "我觉得说话人的风格挺口语化的，就像在播客里分享故事一样。"
+        }
+    },
+    {
+        "audio": "audio/lpxURxe0X_iqluATBHpIlYeWYmpq_16_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "口语化/聊天",
+            "answer": "感觉说话的人说话风格挺口语化的，就像是在聊天一样自然。"
+        }
+    },
+    {
+        "audio": "audio/lmA3flu4TuxPBLY6L4pLjfTKy-e9_0_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "口语化/播客独白",
+            "answer": "我觉得更像播客里的独白。"
+        }
+    },
+    {
+        "audio": "audio/lmMTfg_preb7qTP6cl82t2VkIakX_3_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "口语化描述/介绍",
+            "answer": "我觉得说话人的风格挺口语化的，就像在跟朋友聊天一样自然。"
+        }
+    },
+    {
+        "audio": "audio/lnJXzN1k6JHfO_8jb1cmsW2cwVBH_18_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "口语化/闲聊式",
+            "answer": "感觉说话人挺随和的，像是在闲聊。"
+        }
+    },
+    {
+        "audio": "audio/953b40e8-9dfa-d5f7-7c3f-875a62c8fc06_2_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "演讲式/教学式",
+            "answer": "听起来更像是演讲式的风格。"
+        }
+    },
+    {
+        "audio": "audio/ljo6mS9gnT6TymG3k1oaZYkiUOyK_9_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "演讲/访谈",
+            "answer": "我觉得说话人的风格更像是演讲。"
+        }
+    },
+    {
+        "audio": "audio/lgekHbDhkySA0L9RWJ3TdGYnE8-V_16_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "播报式/演讲式",
+            "answer": "听起来更像是播报式，感觉说话人是在播报新闻。"
+        }
+    },
+    {
+        "audio": "audio/lhB_mVW6YccfhnPBbyIqLD4_2Snc_6_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "演讲/独白",
+            "answer": "这段音频的说话人风格更倾向于演讲。"
+        }
+    },
+    {
+        "audio": "audio/lvVYRbRJOzn_31RsUkn7hJW4Q7ID_0_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "演讲/讲座式",
+            "answer": "听起来像是在做演讲或者讲座。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIW4GUlxHACAAAAFQ2_7D_11_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "演讲/访谈",
+            "answer": "听起来更像是在进行演讲。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIUEGCjwQAi92jQErw2DG-aacv2-48K_7_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "清晰的阐述/演讲",
+            "answer": "说话人的风格非常清晰，适合做阐述和演讲。"
+        }
+    },
+    {
+        "audio": "audio/lvqV9ByGy22HHGrkFG76WSoYZf_h_7_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "演讲/教学式",
+            "answer": "听起来更像是演讲或教学式的风格。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIJEHbP6OAgN-_gHfwfZM_26_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "日常交谈/分享",
+            "answer": "听起来更像是在日常交谈中分享东西。"
+        }
+    },
+    {
+        "audio": "audio/lmwvmfTMHhArToR7vGGfAziK-Fc8_10_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "播讲/故事讲述风格",
+            "answer": "听起来更像是在讲故事。"
+        }
+    },
+    {
+        "audio": "audio/lrsnvSUDQAzTBKmcwmXCnuxXsBiu_3_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "讲座/叙事",
+            "answer": "听起来像是在进行讲座或者叙事。"
+        }
+    },
+    {
+        "audio": "audio/lg8NkbjJx-PuuuV2pB4Y3KiqUTut_0_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "电台/讲座式",
+            "answer": "听起来更像是电台/讲座式的风格。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIMAFZ-RXABAAAAD3eAiK_14_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "评论式/独白",
+            "answer": "我觉得更像是在评论。"
+        }
+    },
+    {
+        "audio": "audio/lnvT-2agwnRtV-kZMV0GDet7udmx_1_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "播客/自述",
+            "answer": "听起来更像在播客里自述。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIasFyPk-AybL-QER962Y-aacv2-48K_2_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "叙事/闲聊",
+            "answer": "我觉得更像是在讲故事和随意聊天之间的那种叙事/闲聊风格。"
+        }
+    },
+    {
+        "audio": "audio/lrKQY73kS2aXJ4M0-hSKdDZy2rD9_4_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "讲座式/评论式",
+            "answer": "我觉得更像是在做讲座。"
+        }
+    },
+    {
+        "audio": "audio/GKwRIMAHnaX5Agu9IwHuUZyX-aacv2-48K_6_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "访谈/推荐式",
+            "answer": "我觉得更像是访谈的风格。"
+        }
+    },
+    {
+        "audio": "audio/WPDL_bNkcAGkaKyzHHtJphjnvAmcBxjxdARtVWtZauqgjrDeWdjqNXbRpavGhwX-54_4_input.wav",
+        "task": {
+            "name": "识别说话人语音风格",
+            "label": "叙事/播客风格",
+            "answer": "我觉得更像是在讲故事，有点像播客的风格。"
+        }
+    }
+]
