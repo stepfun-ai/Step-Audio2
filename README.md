@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <a href="https://arxiv.org/abs/"><img src="https://img.shields.io/static/v1?label=Tech Report&message=Arxiv&color=red"></a> &ensp;
+  <a href="https://arxiv.org/abs/2507.16632"><img src="https://img.shields.io/static/v1?label=Tech Report&message=Arxiv&color=red"></a> &ensp;
   <!-- <a href="https://x.com/StepFun_ai"><img src="https://img.shields.io/static/v1?label=X.com&message=Web&color=blue"></a> &ensp; -->
 </div>
 
