@@ -6,6 +6,8 @@ from einops import pack, rearrange, repeat
 import torch.nn as nn
 import torch.nn.functional as F
 
+from device_utils import get_device
+
 
 
 """
@@ -464,8 +466,12 @@ class DiT(nn.Module):
                     static_inputs1[4], 
                     static_new_cnn_cache, 
                     static_new_att_cache)
-                graph_chunk = torch.cuda.CUDAGraph()
-                with torch.cuda.graph(graph_chunk):
+                device = get_device()
+                if device.type == "cuda":
+                    graph_chunk = torch.cuda.CUDAGraph()
+                    with torch.cuda.graph(graph_chunk):
+                        static_out1 = self.blocks_forward_chunk(static_x1, static_t1, static_mask1, static_cnn_cache, static_att_cache, static_new_cnn_cache, static_new_att_cache)
+                else:
                     static_out1 = self.blocks_forward_chunk(static_x1, static_t1, static_mask1, static_cnn_cache, static_att_cache, static_new_cnn_cache, static_new_att_cache)
                 static_outputs1 = [static_out1, static_new_cnn_cache, static_new_att_cache]
                 self.inference_buffers_chunk[chunk_size] = {

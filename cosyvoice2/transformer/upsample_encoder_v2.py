@@ -29,9 +29,12 @@ from cosyvoice2.utils.class_utils import (
     COSYVOICE_ATTENTION_CLASSES,
     COSYVOICE_ACTIVATION_CLASSES,
 )
+
+
 from cosyvoice2.utils.mask import (
     make_pad_mask,
 )
+from device_utils import get_device
 
 import torch._dynamo
 torch._dynamo.config.suppress_errors = True
@@ -267,11 +270,11 @@ class UpsampleConformerEncoderV2(torch.nn.Module):
 
         for l in range(100, 1500, 10):
             static_x = torch.zeros((1, l, 512), 
-                                dtype=torch.float32, device=torch.device('cuda'))
+                                dtype=torch.float32, device=get_device())
             static_mask = torch.ones((1, 1, l), 
-                                    dtype=torch.bool, device=torch.device('cuda'))
+                                    dtype=torch.bool, device=get_device())
             static_pos_emb = torch.zeros((1, 2*l-1, 512), 
-                                        dtype=torch.float32, device=torch.device('cuda'))
+                                        dtype=torch.float32, device=get_device())
             
             static_inputs = [
                 static_x,
@@ -284,14 +287,22 @@ class UpsampleConformerEncoderV2(torch.nn.Module):
                 static_inputs[1],
                 static_inputs[2],
             )
-            graph = torch.cuda.CUDAGraph()
-            with torch.no_grad():
-                with torch.cuda.graph(graph):
-                    static_out_x = self._forward_impl_encoder(
-                        static_inputs[0],
-                        static_inputs[1],
-                        static_inputs[2]
-                    )
+            device = get_device()
+            if device.type == "cuda":
+                graph = torch.cuda.CUDAGraph()
+                with torch.no_grad():
+                    with torch.cuda.graph(graph):
+                        static_out_x = self._forward_impl_encoder(
+                            static_inputs[0],
+                            static_inputs[1],
+                            static_inputs[2]
+                        )
+            else:
+                static_out_x = self._forward_impl_encoder(
+                    static_inputs[0],
+                    static_inputs[1],
+                    static_inputs[2]
+                )
             self.graph_encoder[l] = graph
             static_outputs = [
                 static_out_x,
@@ -303,11 +314,11 @@ class UpsampleConformerEncoderV2(torch.nn.Module):
 
         for l in range(100, 1500, 10):
             static_x = torch.zeros((1, l, 512), 
-                                dtype=torch.float32, device=torch.device('cuda'))
+                                dtype=torch.float32, device=get_device())
             static_mask = torch.ones((1, 1, l), 
-                                    dtype=torch.bool, device=torch.device('cuda'))
+                                    dtype=torch.bool, device=get_device())
             static_pos_emb = torch.zeros((1, 2*l-1, 512), 
-                                        dtype=torch.float32, device=torch.device('cuda'))
+                                        dtype=torch.float32, device=get_device())
             
             static_inputs = [
                 static_x,
@@ -320,14 +331,22 @@ class UpsampleConformerEncoderV2(torch.nn.Module):
                 static_inputs[1],
                 static_inputs[2],
             )
-            graph = torch.cuda.CUDAGraph()
-            with torch.no_grad():
-                with torch.cuda.graph(graph):
-                    static_out_x = self._forward_impl_up_encoder(
-                        static_inputs[0],
-                        static_inputs[1],
-                        static_inputs[2]
-                    )
+            device = get_device()
+            if device.type == "cuda":
+                graph = torch.cuda.CUDAGraph()
+                with torch.no_grad():
+                    with torch.cuda.graph(graph):
+                        static_out_x = self._forward_impl_up_encoder(
+                            static_inputs[0],
+                            static_inputs[1],
+                            static_inputs[2]
+                        )
+            else:
+                static_out_x = self._forward_impl_up_encoder(
+                    static_inputs[0],
+                    static_inputs[1],
+                    static_inputs[2]
+                )
             self.graph_up_encoder[l] = graph
             static_outputs = [
                 static_out_x,
