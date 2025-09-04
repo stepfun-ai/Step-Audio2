@@ -28,6 +28,7 @@ import onnxruntime
 import s3tokenizer
 import torch
 import torch.distributed as dist
+from device_utils import get_device
 import torchaudio
 import torchaudio.compliance.kaldi as kaldi
 from torch.utils.data import DataLoader, Dataset, DistributedSampler
@@ -42,7 +43,10 @@ def set_all_random_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+    if torch.backends.mps.is_available():
+        torch.mps.manual_seed(seed)
 
 
 def save_file_async(
@@ -211,7 +215,8 @@ def init_distributed():
     rank = int(os.environ.get('RANK', 0))
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S,%f')[:-3]
     tqdm.write(f'[{timestamp}] - [INFO] - Inference on multiple gpus, this gpu {local_rank}, rank {rank}, world_size {world_size}')
-    torch.cuda.set_device(local_rank)
+    if torch.cuda.is_available():
+        torch.cuda.set_device(local_rank)
     dist.init_process_group("nccl")
     return world_size, local_rank, rank
 
@@ -283,7 +288,8 @@ def main():
     else:
         text_norm = None
 
-    assert (torch.cuda.is_available())
+    device = get_device()
+    assert (device.type in ["cuda", "mps"]), "Either CUDA or MPS must be available"
     world_size, local_rank, rank = init_distributed()
     config = Config(model=args.model_path, enforce_eager=True, tensor_parallel_size=1,
                     max_num_seqs=args.batch_size_dataloader,

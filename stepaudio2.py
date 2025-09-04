@@ -2,13 +2,15 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig
 
 from utils import compute_token_num, load_audio, log_mel_spectrogram, padding_mels
+from device_utils import get_device
 
 
 class StepAudio2Base:
 
     def __init__(self, model_path: str):
         self.llm_tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True, padding_side="right")
-        self.llm = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
+        device = get_device()
+        self.llm = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=True, torch_dtype=torch.bfloat16).to(device)
         self.eos_token_id = self.llm_tokenizer.eos_token_id
 
     def __call__(self, messages: list, **kwargs):
@@ -23,18 +25,20 @@ class StepAudio2Base:
                 prompt_ids.append(torch.tensor([msg], dtype=torch.int32))
             else:
                 raise ValueError(f"Unsupported content type: {type(msg)}")
-        prompt_ids = torch.cat(prompt_ids, dim=-1).cuda()
+        device = get_device()
+        prompt_ids = torch.cat(prompt_ids, dim=-1).to(device)
         attention_mask = torch.ones_like(prompt_ids)
 
         #mels = None if len(mels) == 0 else torch.stack(mels).cuda()
-        #mel_lengths = None if mels is None else torch.tensor([mel.shape[1] - 2 for mel in mels], dtype=torch.int32, device='cuda')
+        #mel_lengths = None if mels is None else torch.tensor([mel.shape[1] - 2 for mel in mels], dtype=torch.int32, device=get_device())
         if len(mels)==0:
             mels = None
             mel_lengths = None
         else:
             mels, mel_lengths = padding_mels(mels)
-            mels = mels.cuda()
-            mel_lengths = mel_lengths.cuda()
+            device = get_device()
+            mels = mels.to(device)
+            mel_lengths = mel_lengths.to(device)
 
         generate_inputs = {
             "input_ids": prompt_ids,

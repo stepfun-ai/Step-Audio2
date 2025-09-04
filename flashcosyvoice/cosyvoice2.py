@@ -22,6 +22,7 @@ from flashcosyvoice.config import Config, SamplingParams
 from flashcosyvoice.engine.llm_engine import LLMEngine
 from flashcosyvoice.modules.flow import CausalMaskedDiffWithXvec
 from flashcosyvoice.modules.hifigan import HiFTGenerator
+from device_utils import get_device
 
 
 class CosyVoice2(torch.nn.Module):
@@ -29,7 +30,8 @@ class CosyVoice2(torch.nn.Module):
         super().__init__()
         self.config = Config() if config is None else config
 
-        self.audio_tokenizer = s3tokenizer.load_model("speech_tokenizer_v2_25hz").cuda().eval()
+        device = get_device()
+        self.audio_tokenizer = s3tokenizer.load_model("speech_tokenizer_v2_25hz").to(device).eval()
 
         self.llm = LLMEngine(**self.config.__dict__)
 
@@ -41,12 +43,14 @@ class CosyVoice2(torch.nn.Module):
             tqdm.write(f"[{timestamp}] - [INFO] - Casting flow to fp16")
             self.flow.half()
         self.flow.load_state_dict(torch.load(f"{self.config.model}/flow.pt", map_location="cpu", weights_only=True), strict=True)
-        self.flow.cuda().eval()
+        device = get_device()
+        self.flow.to(device).eval()
 
         self.hift = HiFTGenerator()
         hift_state_dict = {k.replace('generator.', ''): v for k, v in torch.load(f"{self.config.model}/hift.pt", map_location="cpu", weights_only=True).items()}
         self.hift.load_state_dict(hift_state_dict, strict=True)
-        self.hift.cuda().eval()
+        device = get_device()
+        self.hift.to(device).eval()
 
     @torch.inference_mode()
     def forward(
@@ -64,7 +68,7 @@ class CosyVoice2(torch.nn.Module):
         # Audio tokenization
         start_time = time.time()
         prompt_speech_tokens, prompt_speech_tokens_lens = self.audio_tokenizer.quantize(
-            prompt_mels_for_llm.cuda(), prompt_mels_lens_for_llm.cuda()
+            prompt_mels_for_llm.to(get_device()), prompt_mels_lens_for_llm.to(get_device())
         )
         timing_stats['audio_tokenization'] = time.time() - start_time
 
@@ -131,10 +135,26 @@ class CosyVoice2(torch.nn.Module):
 
             # Flow generation for this batch
             flow_start_time = time.time()
-            with torch.amp.autocast("cuda", dtype=torch.float16 if self.config.hf_config.fp16_flow else torch.float32):
+            device = get_device()
+            if device.type == "mps":
+                # MPS has limited autocast support, disable for compatibility
                 batch_generated_mels, batch_generated_mels_lens = self.flow(
-                    batch_flow_inputs.cuda(), batch_flow_inputs_lens.cuda(),
-                    batch_prompt_mels.cuda(), batch_prompt_mels_lens.cuda(), batch_spk_emb.cuda(),
+                    batch_flow_inputs.to(get_device()), batch_flow_inputs_lens.to(get_device()),
+                    batch_prompt_mels.to(get_device()), batch_prompt_mels_lens.to(get_device()), batch_spk_emb.to(get_device()),
+                    streaming=False, finalize=True
+                )
+            elif device.type == "cuda":
+                with torch.amp.autocast("cuda", dtype=torch.float16 if self.config.hf_config.fp16_flow else torch.float32):
+                    batch_generated_mels, batch_generated_mels_lens = self.flow(
+                        batch_flow_inputs.to(get_device()), batch_flow_inputs_lens.to(get_device()),
+                        batch_prompt_mels.to(get_device()), batch_prompt_mels_lens.to(get_device()), batch_spk_emb.to(get_device()),
+                        streaming=False, finalize=True
+                    )
+            else:
+                # CPU fallback - no autocast
+                batch_generated_mels, batch_generated_mels_lens = self.flow(
+                    batch_flow_inputs.to(get_device()), batch_flow_inputs_lens.to(get_device()),
+                    batch_prompt_mels.to(get_device()), batch_prompt_mels_lens.to(get_device()), batch_spk_emb.to(get_device()),
                     streaming=False, finalize=True
                 )
             flow_total_time += time.time() - flow_start_time

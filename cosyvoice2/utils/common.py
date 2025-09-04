@@ -21,6 +21,8 @@ from typing import List
 import numpy as np
 import torch
 
+from device_utils import get_device, set_manual_seed
+
 IGNORE_ID = -1
 
 
@@ -97,5 +99,4 @@ def fade_in_out(fade_in_mel, fade_out_mel, window):
 def set_all_random_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
+    set_manual_seed(seed)
