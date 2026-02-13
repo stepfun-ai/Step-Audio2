@@ -35,6 +35,9 @@
 </div>
 -->
 
+<img src="assets/QRCode.jpeg"  height=300>
+WeChat Developer Group
+
 ## Introduction
 
 
