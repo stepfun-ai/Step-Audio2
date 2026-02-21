@@ -403,9 +403,6 @@ class DiT(nn.Module):
         self.inference_buffers_chunk = {}
         self.max_size_chunk = {}
 
-        self.register_buffer('att_cache_buffer', torch.zeros((16, 2, 8, 1000, 128)), persistent=False)
-        self.register_buffer('cnn_cache_buffer', torch.zeros((16, 2, 1024, 2)), persistent=False)
-
     def initialize_weights(self):
         # Initialize transformer layers:
         def _basic_init(module):
@@ -432,7 +429,7 @@ class DiT(nn.Module):
 
     def _init_cuda_graph_chunk(self):
         # get dtype, device from registered buffer
-        dtype, device = self.cnn_cache_buffer.dtype, self.cnn_cache_buffer.device
+        dtype, device = self.in_proj.weight.dtype, self.in_proj.weight.device
         # init cuda graph for streaming forward
         with torch.no_grad():
             for chunk_size in [30, 48, 96]:
@@ -491,6 +488,7 @@ class DiT(nn.Module):
 
         # time
         t = self.t_embedder(t).unsqueeze(1)  # (b, 1, c)
+
         x = pack([x, mu], "b * t")[0]
         if spks is not None:
             spks = repeat(spks, "b c -> b c t", t=x.shape[-1])
@@ -541,16 +539,14 @@ class DiT(nn.Module):
 
         # create fake cache
         if cnn_cache is None:
-            cnn_cache = [None] * len(self.blocks)
+            cnn_cache = torch.zeros(len(self.blocks), x.shape[0], 1024, 2, dtype=x.dtype, device=x.device)
         if att_cache is None:
-            att_cache = [None] * len(self.blocks)
-        if att_cache[0] is not None:
-            last_att_len = att_cache.shape[3]
-        else:
-            last_att_len = 0
+            att_cache = torch.zeros(len(self.blocks), x.shape[0], self.blocks[0].attn.num_heads, 0, self.blocks[0].attn.head_dim * 2, dtype=x.dtype, device=x.device)
+        
+        last_att_len = att_cache.shape[3]
         chunk_size = x.shape[2]
         mask = torch.ones(x.shape[0], chunk_size, last_att_len+chunk_size, dtype=torch.bool, device=x.device)
-        if self.use_cuda_graph and att_cache[0] is not None and chunk_size in self.graph_chunk and last_att_len <= self.max_size_chunk[chunk_size]:
+        if self.use_cuda_graph and att_cache is not None and chunk_size in self.graph_chunk and last_att_len <= self.max_size_chunk[chunk_size]:
             padded_mask = torch.zeros((2, chunk_size, self.max_size_chunk[chunk_size]+chunk_size), dtype=mask.dtype, device=mask.device)
             padded_mask[:, :, :mask.shape[-1]] = mask
             padded_att_cache = torch.zeros((16, 2, 8, self.max_size_chunk[chunk_size], 128), dtype=att_cache.dtype, device=att_cache.device)
@@ -566,20 +562,22 @@ class DiT(nn.Module):
             new_att_cache = self.inference_buffers_chunk[chunk_size]['static_outputs'][2][:, :, :, :chunk_size+last_att_len, :]          
         else:
             mask = None
-            x = self.blocks_forward_chunk(x, t, mask, cnn_cache, att_cache, self.cnn_cache_buffer, self.att_cache_buffer)
-            new_cnn_cache = self.cnn_cache_buffer
-            new_att_cache = self.att_cache_buffer[:, :, :, :last_att_len+chunk_size, :]
+            x, new_cnn_cache, new_att_cache = self.blocks_forward_chunk(x, t, mask, cnn_cache, att_cache)
 
         return x, new_cnn_cache, new_att_cache
     
-    def blocks_forward_chunk(self, x, t, mask, cnn_cache=None, att_cache=None, cnn_cache_buffer=None, att_cache_buffer=None):
+    def blocks_forward_chunk(self, x, t, mask, cnn_cache, att_cache):
         x = x.transpose(1, 2)
         x = self.in_proj(x)
+        
+        new_cnn_caches = []
+        new_att_caches = []
+
         for b_idx, block in enumerate(self.blocks):
-            x, this_new_cnn_cache, this_new_att_cache \
-                = block.forward_chunk(x, t, cnn_cache[b_idx], att_cache[b_idx], mask)
-            cnn_cache_buffer[b_idx] = this_new_cnn_cache
-            att_cache_buffer[b_idx][:, :, :this_new_att_cache.shape[2], :] = this_new_att_cache
+            x, this_new_cnn_cache, this_new_att_cache = block.forward_chunk(x, t, cnn_cache[b_idx], att_cache[b_idx], mask)
+            new_cnn_caches.append(this_new_cnn_cache)
+            new_att_caches.append(this_new_att_cache)
+
         x = self.final_layer(x, t)
         x = x.transpose(1, 2)
-        return x
+        return x, torch.stack(new_cnn_caches), torch.stack(new_att_caches)
